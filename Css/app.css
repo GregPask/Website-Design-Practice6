@@ -1,0 +1,32 @@
+body, html, a, button, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+i, div, h1, h2, h3 p, a, ul, li, button {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif !important;
+}
+
+a {
+  cursor: pointer !important;
+}
+/*# sourceMappingURL=app.css.map */
+
+
+a:hover {
+  color: orangered !important;
+}

@@ -1,0 +1,53 @@
+#footer {
+  background-image: url("https://colorlib.com/preview/theme/marimar/images/footer.jpg");
+  width: 100%;
+  height: auto;
+  padding: 5rem 1rem;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+#footer #footer-content {
+  width: 700px;
+  height: auto;
+}
+
+#footer #footer1 {
+  text-align: center;
+}
+
+#footer #footer2 {
+  margin-top: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  height: 100%;
+}
+
+#footer #footer2 div p {
+  color: #fff !important;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  #footer2 {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  #footer2 div {
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

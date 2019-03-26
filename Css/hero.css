@@ -1,0 +1,152 @@
+#hero {
+  background-image: url("https://colorlib.com/preview/theme/marimar/images/home.jpg");
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero-cover {
+  background-color: rgba(0, 0, 0, 0.363);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+#hero-content {
+  margin-top: 13rem !important;
+  max-width: 800px;
+  text-align: center;
+}
+
+#hero-content h1 {
+  font-size: 5.3rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+#hero-content p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#hero-content a {
+  background-color: #FF9000;
+  color: #fff;
+  width: 250px;
+  padding: 25px 25px;
+  display: block;
+  margin: 1.4rem auto;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+#box1 {
+  grid-area: one;
+}
+
+#box2 {
+  grid-area: two;
+}
+
+#box3 {
+  grid-area: three;
+}
+
+#box4 {
+  grid-area: four;
+}
+
+#box5 {
+  grid-area: five;
+}
+
+#hero-box {
+  background-color: #fff;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  height: auto;
+  z-index: 10 !important;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 2fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  grid-gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+}
+
+#hero-box div {
+  background-color: #F4F5FA;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero-box #box-5 {
+  background-color: #FF9000;
+  color: #fff;
+  padding: 20px;
+  cursor: pointer !important;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  #hero-box {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "one two" "three four";
+  }
+  #hero-box a {
+    display: none;
+  }
+}
+
+@media (max-width: 567px) {
+  #hero-box {
+    display: none;
+  }
+  #hero-content {
+    padding: 0 10px;
+  }
+  #hero-content h1 {
+    font-size: 3rem;
+  }
+  #hero-content p {
+    font-size: 1.2rem;
+  }
+  #hero-content a {
+    padding: 10px !important;
+  }
+}
+/*# sourceMappingURL=hero.css.map */
